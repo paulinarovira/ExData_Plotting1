@@ -55,7 +55,7 @@ plot(x,y_gap, type="l", col="black", lwd=1, xlab = "",
      ylab="Global Active Power")
 
 # Draw Voltage plot
-plot(x,y_voltage, type="l", col="black", lwd=1, xlab = "", 
+plot(x,y_voltage, type="l", col="black", lwd=1, xlab = "datetime", 
      ylab="Voltage")
 
 # Draw Energy submetering plot
@@ -71,7 +71,7 @@ legend("topright",
        bty = "n")
 
 # Draw Global reactive power plot
-plot(x,y_grp, type="l", col="black", lwd=1, xlab = "", 
+plot(x,y_grp, type="l", col="black", lwd=1, xlab = "datetime", 
      ylab="Global_reactive_power")
 
 # Save to PNG
