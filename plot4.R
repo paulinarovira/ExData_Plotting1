@@ -75,4 +75,4 @@ plot(x,y_grp, type="l", col="black", lwd=1, xlab = "",
      ylab="Global_reactive_power")
 
 # Save to PNG
-dev.print(png, file = "plot3.png", width = 480, height = 480)
+dev.print(png, file = "plot4.png", width = 480, height = 480)
